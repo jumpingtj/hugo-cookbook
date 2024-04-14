@@ -1,4 +1,4 @@
-
+window.print();
 // Shrink up the spacing and change the size of the headers
 u('#ingredients').attr("style", "margin-bottom: .5em;")
 u('#ingredients').attr("class", "is-size-5")

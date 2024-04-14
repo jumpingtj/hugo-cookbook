@@ -1,3 +1,10 @@
+function printURL(url) {
+  var pr = window.open(url);
+  setTimeout(function(){
+      pr.close();
+  }, 1000);
+}
+
 
 var searchTerm = null;
 
