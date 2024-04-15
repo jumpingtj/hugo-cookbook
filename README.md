@@ -1,6 +1,6 @@
 # Cookbook Theme
 
-[Demo Site](https://wonderful-raman-ea1990.netlify.app)
+[Old Demo Site](https://wonderful-raman-ea1990.netlify.app) (from the original)
 
 ## About
 
@@ -34,7 +34,7 @@ You can install using hugo's recommended theme install method while in your hugo
 
 `git init`
 
-`git submodule add https://github.com/deranjer/hugo-cookbook.git themes/cookbook`
+`git submodule add https://github.com/jumpingtj/hugo-cookbook.git themes/cookbook`
 
 OR
 
