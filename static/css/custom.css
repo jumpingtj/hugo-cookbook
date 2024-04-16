@@ -2,3 +2,32 @@ li {
     padding-bottom: .5em;
     font-size: 20px;
 }
+
+.navbar-item {
+    color: navy !important;
+}
+
+nav.is-primary {
+    background-color: rgb(192, 234, 220) !important;
+}
+
+nav.is-primary .navbar-item:hover{
+    background-color: rgb(0, 194, 168) !important;
+}
+
+.is-primary {
+    background-color: rgb(0, 191, 181) !important;
+}
+
+.navbar.is-primary .navbar-burger {
+    color: navy;
+}
+
+body {
+    background-color: rgb(240, 255, 250);
+}
+
+.footer {
+    padding: 0 1.5rem !important;
+    height: 6rem;
+}

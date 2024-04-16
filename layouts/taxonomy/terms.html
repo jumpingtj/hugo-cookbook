@@ -2,6 +2,8 @@
 {{ define "main" }}
 <div class="section">
     <div class="columns is-multiline">
+        {{.Kind}}
+        {{ .Pages.ByPublishDate.Reverse }}
         {{ range .Pages.ByPublishDate.Reverse }}
         {{ $.Scratch.Set "relLink" .RelPermalink }}
         <div class="column is-one-quarter">
